@@ -26,6 +26,7 @@
                     <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
                 </ul>
             </nav>
+            <button class="toTopBtn"><i class="fas fa-arrow-up"></i></button>
         </header>
 
         <!-- Introduction -->
@@ -36,37 +37,91 @@
             <p class="section__subtitle section__subtitle--intro">an engineer</p>
         </section>
 
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title  section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Linux administration</h3>
-                </div><!-- / service -->
-                <div class="service">
-                    <h3>Cloud solution</h3>
-                </div><!-- / service -->
-                <div class="service">
-                    <h3>Automation</h3>
-                    <p>
-                        <li>CI/CD</li> 
-                        <li>Test automation</li>
-                    </p>
-                </div><!-- / service -->
-                <div class="service">
-                    <h3>Infrastructure</h3>
-                </div><!-- / service -->
-                <div class="service">
-                    <h3>Observability</h3>
-                    <p>
-                        <li>Monitoring</li> 
-                        <li>Alerting/visualization</li>
-                        <li>Distributed systems tracing infrastructure</li>
-                        <li>Log aggregation and analytics</li>
-                    </p>
-                </div><!-- / service -->
-            </div><!-- / services -->
-            <a href="#work" class="btn">My Work</a>
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">What I do</h2>
+            <p class="section__subtitle section__subtitle--work">Infrastructure</p>
+            <ul class="service__logos-list">
+                <li class="service__logos-list-item">
+                    <img src="static/logos/ansible.svg" alt="">
+                </li>
+                <li class="service__logos-list-item">
+                    <img src="static/logos/terraform.svg" alt="">
+                </li>
+            </ul>
+
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="static/pictures/grafana.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+            <p class="section__subtitle section__subtitle--work">Linux administration</p>
+            <ul class="service__logos-list">
+                <li class="service__logos-list-item">
+                    <i class="fab fa-centos"></i>
+                </li>
+                <li class="service__logos-list-item">
+                    <i class="fab fa-ubuntu"></i>
+                </li>
+                <li class="service__logos-list-item">
+                    <i class="fab fa-redhat"></i>
+                </li>
+            </ul>
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="static/pictures/grafana.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+            <p class="section__subtitle section__subtitle--work">Cloud</p>
+            <ul class="service__logos-list">
+                <li class="service__logos-list-item">
+                    <i class="fab fa-aws"></i>
+                </li>
+                <li class="service__logos-list-item">
+                    <img src="static/logos/azure.svg" alt="">
+                </li>
+            </ul>
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="static/pictures/grafana.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+            <p class="section__subtitle section__subtitle--work">DevOps</p>
+            <ul class="service__logos-list">
+                <li class="service__logos-list-item">
+                    <i class="fab fa-jenkins"></i>
+                </li>
+                <li class="service__logos-list-item">
+                    <i class="fab fa-docker"></i>
+                </li>
+            </ul>
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="static/pictures/grafana.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+            <p class="section__subtitle section__subtitle--work">Observability</p>
+            <ul class="service__logos-list">
+                <li class="service__logos-list-item">
+                    <img src="static/logos/grafana.svg" alt="">
+                </li>
+            </ul>
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="static/pictures/grafana.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+            <p class="section__subtitle section__subtitle--work">Automation</p>
+            <ul class="service__logos-list">
+                <li class="service__logos-list-item">
+                    <i class="fab fa-python"></i>
+                </li>
+            </ul>
+            <div class="portfolio">
+                <a href="#" class="portfolio__item">
+                    <img src="static/pictures/grafana.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
         </section>
 
         <!-- About me -->
@@ -81,22 +136,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p> 
             </div>
-            <img src="images/me.png" alt="" class="about-me__img">
-        </section>
-
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My Work</h2>
-            <p class="section__subtitle section__subtitle--work">site reliability engineering</p>
-
-            <div class="portfolio">
-                <a href="#" class="portfolio__item">
-                    <img src="images/grafana.jpg" alt="" class="portfolio__img">
-                </a>
-                <a href="#" class="portfolio__item">
-                    <img src="images/grafana.jpg" alt="" class="portfolio__img">
-                </a>
-            </div>
+            <img src="static/pictures/me.png" alt="" class="about-me__img">
         </section>
 
         <!-- Footer -->

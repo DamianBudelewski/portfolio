@@ -13,9 +13,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-light: #FAF0E6;
-    --clr-dark: #303030;
-    --clr-accent: #CD5C5C;
+    --clr-light:white;
+    --clr-dark: #191970;
+    --clr-accent: #7B68EE ;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -89,6 +89,26 @@ strong { font-weight: bold; }
     transform: scale(1.1);
 }
 
+.toTopBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: var(--clr-dark); 
+    color: white; 
+    cursor: pointer;
+    padding: 10px; 
+    border-radius: 20px; 
+    font-size: var(--fs-h3); 
+}
+  
+.toTopBtn:hover {
+    background-color: var(--clr-accent);
+}
+
 /* Typography */ 
 
 h1,
@@ -129,9 +149,10 @@ h3 { font-size: var(--fs-h3); }
 }
 
 .section__subtitle--work {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 /* Header */
@@ -286,7 +307,7 @@ h3 { font-size: var(--fs-h3); }
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../images/services-bg.jpg);
+    background-image: url(../static/background/services-bg.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -316,6 +337,20 @@ h3 { font-size: var(--fs-h3); }
     max-width: 500px;
     margin: 0 auto;
 
+}
+
+.service__logos-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+.service__logos-list-item {
+    font-size: 2em;
+    margin: 0 .5em;
 }
 
 @media (min-width: 800px) {
@@ -366,6 +401,7 @@ h3 { font-size: var(--fs-h3); }
         padding-right: calc(200px + 4em);
     }
 
+
     .about-me__img {
         grid-area: img;
         position: relative;
@@ -410,7 +446,7 @@ h3 { font-size: var(--fs-h3); }
 /* footer */
 .footer {
     background: #111;
-    color: var(--clr-accent);
+    color: var(--clr-light);
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
