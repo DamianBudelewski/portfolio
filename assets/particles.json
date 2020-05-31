@@ -11,7 +11,7 @@
       "value": "#01579b" 
     },
     "shape": {
-        "type": "circle",
+        "type": "",
         "stroke": { 
           "width": 1,
           "color": "#145ea8"
