@@ -24,3 +24,5 @@ window.addEventListener('scroll', () => {
     toTopButton.style.display = "none";
   }
 })
+
+particlesJS.load('particles-js', 'assets/particles.json');
