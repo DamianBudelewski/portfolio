@@ -14,8 +14,8 @@
     --fw-bold: 900;
 
     --clr-light:white;
-    --clr-dark: #191970;
-    --clr-accent: #7B68EE ;
+    --clr-dark: #01579b;
+    --clr-accent: #4169E1;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -155,9 +155,6 @@ strong { font-weight: bold; }
   }
 }
 
-
-
-
 /* Typography */ 
 
 h1,
@@ -198,6 +195,7 @@ h3 { font-size: var(--fs-h3); }
 .section__subtitle--about {
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
+    border-radius: 1em;
     padding: .25em 1em;
     margin-bottom: 1em;
 }
@@ -423,13 +421,11 @@ h3 { font-size: var(--fs-h3); }
     }
 
     .section__subtitle--about {
-        grid-column: 1 / -1;
+        grid-column: 1;
         grid-row: 2;
+        width: 18em;
         position: relative;
         left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
     }
 
 
