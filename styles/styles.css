@@ -106,10 +106,6 @@ strong {
   background-color: var(--clr-accent);
 }
 
-.scrollDownBtn a {
-  padding-top: 70px;
-}
-
 .scrollDownBtn a span {
   position: absolute;
   color: var(--clr-dark);
@@ -117,15 +113,12 @@ strong {
   left: 50%;
   width: 3em;
   height: 3em;
-  margin-left: -12px;
   border-left: 0.5em solid var(--clr-dark);
   border-bottom: 0.5em solid var(--clr-dark);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
   animation: sdb05 1.5s infinite;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 @-webkit-keyframes sdb05 {
