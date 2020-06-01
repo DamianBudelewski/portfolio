@@ -29,4 +29,5 @@ jobs:
 
     - name: Copy files to the website bucket
       run: |
-        aws s3 sync . s3://budelewski.com
+        aws s3 sync . s3://budelewski.com --exclude '.git*'
+ 
